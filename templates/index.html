@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block body %}
+<h1> Similarities </h1>
+<form action="/score" method="post">
+    <vl>
+    <input name="string1" placeholder="String Uno" type="text"/>
+    <input name="string2" placeholder="String dos" type="text"/>
+    </vl>
+    <input type="submit" value="Score"/>
+</form>
+{% endblock %}
